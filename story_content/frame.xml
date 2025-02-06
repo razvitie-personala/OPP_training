@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="105" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x000000">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="105" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x000000">
   <layouts>
     <layout name="npnxnanbsnfns00000000001" font="Calibri" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="pxabnsnfns00000000001" font="Calibri" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Курс_Тренажер ОПП " />
+              <option name="title_text" value="Интерактивный тренажер по оказанию первой помощи (2025)" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -68,11 +68,7 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="false">
-            <options>
-              <option name="font" value="Calibri" />
-            </options>
-          </option>
+          <option name="closed_captions" value="false" />
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="false" />
@@ -88,6 +84,15 @@
           <option name="next" value="icon" />
           <option name="previous" value="icon" />
           <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Calibri" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -1398,157 +1403,144 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
-      <string id="three_image_progress_audio">прогресс</string>
+      <string id="acc_cc_hide">Скрыть субтитры (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Показать субтитры (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Войти в полноэкранный режим (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Выйти из полноэкранного режима (Ctrl+Alt+F)</string>
+      <string id="acc_locked">запер(ла) дверь</string>
+      <string id="acc_modern_video_captions">субтитры к видео</string>
+      <string id="acc_modern_video_fullscreen">полноэкранное видео</string>
+      <string id="acc_modern_video_mute">отключить звук видео</string>
+      <string id="acc_modern_video_pause">приостановить видео</string>
+      <string id="acc_modern_video_pip">картинка-в-картинке</string>
+      <string id="acc_modern_video_play">воспроизвести видео</string>
+      <string id="acc_modern_video_playback_speed">скорость воспроизведения</string>
+      <string id="acc_modern_video_settings">настройки видео</string>
+      <string id="acc_modern_video_transcript">Открыть</string>
+      <string id="acc_modern_video_volume">громкость видео</string>
+      <string id="acc_mute">Отключить звук (Ctrl+Alt+M)</string>
+      <string id="acc_next">Далее (Ctrl+Alt+точка)</string>
+      <string id="acc_next_visual">Далее (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Пауза (Ctrl+Alt+P)</string>
+      <string id="acc_play">Воспроизвести (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Скорость воспроизведения</string>
+      <string id="acc_previous">Предыдущий (Ctrl+Alt+Запятая)</string>
+      <string id="acc_previous_visual">Предыдущий (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Повтор (Ctrl+Alt+R)</string>
+      <string id="acc_search_input">поиск</string>
+      <string id="acc_settings">Параметры</string>
+      <string id="acc_skipnavigation">Наверх</string>
+      <string id="acc_slide_progress">прогресс слайдов</string>
+      <string id="acc_submit">Отправить (Ctrl+Alt+S)</string>
+      <string id="acc_three_image_count_of_total_item_visited">просмотрено %count% из %total% предметов</string>
+      <string id="acc_three_image_count_of_total_items_visited">просмотрено %count% из %total% предметов</string>
+      <string id="acc_three_image_step_count_of_total">шаг %count% из %total%</string>
+      <string id="acc_unmute">Включить звук (Ctrl+Alt+M)</string>
+      <string id="acc_video_transcript_list">Запись</string>
+      <string id="acc_visited">посетил(а)</string>
+      <string id="acc_window_close">Закрыть</string>
+      <string id="acc_window_move">Переместить окно</string>
+      <string id="acc_window_options">Параметры</string>
+      <string id="acc_window_resize">Изменить размер окна</string>
+      <string id="accessible_text">Доступный текст</string>
+      <string id="acctext_shortcut">Переключить субтитры</string>
+      <string id="action">Действие</string>
+      <string id="alt_key">Alt</string>
+      <string id="background_audio">Фоновый звук</string>
+      <string id="background_audio_shortcut">Включить фоновый звук</string>
+      <string id="clear">Сброс и возврат в меню</string>
+      <string id="close">Закрыть</string>
+      <string id="closed_captions">Субтитры</string>
+      <string id="closedcaptions_shortcut">Переключение субтитров</string>
+      <string id="continueresponsive">Продолжить</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="desktop_start">Начать курс</string>
+      <string id="disabled_orientation">Поверните устройство</string>
+      <string id="enable_keyboardshortcuts">Включить комбинации клавиш</string>
+      <string id="filter">Фильтр</string>
+      <string id="fullscreen_shortcut">Включить полноэкранный режим</string>
+      <string id="glossary">Глоссарий</string>
+      <string id="keyboardshortcuts">Сочетания клавиш на клавиатуре</string>
+      <string id="keyboardshortcuts_lower">Сочетания клавиш на клавиатуре</string>
+      <string id="mobile_start">Начать курс</string>
+      <string id="modern_video_captions_label">Субтитры</string>
+      <string id="modern_video_captions_off">Выкл.</string>
+      <string id="modern_video_captions_on">Вкл.</string>
+      <string id="modern_video_normal_speed">Нормальная</string>
+      <string id="modern_video_playback_settings">Настройки воспроизведения видео</string>
+      <string id="modern_video_playback_speed_title">Скорость воспроизведения</string>
+      <string id="modern_video_settings_close">закрыть настройки видео</string>
+      <string id="mute_shortcut">Выкл./Вкл. звук</string>
+      <string id="next">ДАЛЕЕ</string>
+      <string id="next_shortcut">Далее</string>
+      <string id="outline">Меню</string>
+      <string id="playback_speed_normal">Нормальная</string>
+      <string id="playback_speed_title">Скорость воспроизведения</string>
+      <string id="playpause_shortcut">Воспроизведение / Пауза</string>
+      <string id="prev">НАЗАД</string>
+      <string id="previous_shortcut">Назад</string>
+      <string id="progress_hour">час</string>
+      <string id="progress_hours">часов</string>
+      <string id="progress_minute">минута</string>
+      <string id="progress_minutes">минут</string>
+      <string id="progress_second">секунда</string>
+      <string id="progress_seconds">секунд</string>
+      <string id="replay_shortcut">Повторить</string>
+      <string id="resources">Ресурсы</string>
+      <string id="restart">Начать заново</string>
+      <string id="resume">Возобновить тест</string>
+      <string id="search">Поиск...</string>
+      <string id="search_in">Поиск:</string>
+      <string id="search_results">Результаты поиска</string>
+      <string id="search_toggle">Поиск</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Сочетание клавиш</string>
+      <string id="shortcuthelp">Перечислить сочетания клавиш на клавиатуре</string>
+      <string id="sidebar_toggle">Переключение боковых панелей</string>
+      <string id="slide_text_chk">Текст слайда</string>
+      <string id="streaming_video_local_playback_learn_more">Узнать больше</string>
+      <string id="streaming_video_local_playback_republish">Для просмотра этого видео используйте функцию предварительного просмотра в Storyline 360, загрузите свой опубликованный материал на сервер, опубликуйте его в Review 360 или переключитесь на статичное качество видео.</string>
+      <string id="streaming_video_local_playback_title">Потоковое видео недоступно для локального воспроизведения.</string>
+      <string id="submit">ОТПРАВИТЬ</string>
+      <string id="submit_shortcut">Добавить</string>
+      <string id="terms">Термины</string>
       <string id="three_image_audio">аудио</string>
       <string id="three_image_camera_down">камера перемещена вниз</string>
       <string id="three_image_camera_left">камера перемещена влево</string>
       <string id="three_image_camera_right">камера перемещена вправо</string>
       <string id="three_image_camera_up">камера перемещена вверх</string>
-      <string id="three_image_interaction_free">режим свободного исследования</string>
-      <string id="three_image_interaction_guided">режим путеводителя</string>
+      <string id="three_image_count_of_total">%count% из %total%</string>
+      <string id="three_image_count_of_total_visited">просмотрено %count% из %total%</string>
       <string id="three_image_hotspot">горячая точка</string>
       <string id="three_image_instructions">Используйте клавиши W, A, S и D для перемещения по 360-градусному изображению. Нажмите клавишу Tab для перехода к интерактивным маркерам и горячим точкам.</string>
       <string id="three_image_interaction">Взаимодействие с 360-градусным изображением</string>
+      <string id="three_image_interaction_free">режим свободного исследования</string>
+      <string id="three_image_interaction_guided">режим путеводителя</string>
+      <string id="three_image_interaction_next">далее</string>
+      <string id="three_image_interaction_prev">назад</string>
       <string id="three_image_label">ярлык</string>
       <string id="three_image_marker">маркер</string>
-      <string id="three_image_items">предметы</string>
-      <string id="three_image_interaction_next">далее</string>
       <string id="three_image_pause_audio">приостановить аудио</string>
       <string id="three_image_pause_video">приостановить видео</string>
       <string id="three_image_play_audio">воспроизвести аудио</string>
       <string id="three_image_play_video">воспроизвести видео</string>
-      <string id="three_image_interaction_prev">назад</string>
-      <string id="three_image_visited">посещено</string>
-      <string id="three_image_of">из</string>
-      <string id="three_image_count_of_total">%count% из %total%</string>
-      <string id="acc_three_image_step_count_of_total">шаг %count% из %total%</string>
-      <string id="three_image_item">предмет</string>
-      <string id="three_image_interaction_step">шаг</string>
-      <string id="three_image_tooltip">подсказка</string>
-      <string id="three_image_total_items">%total% предметов</string>
-      <string id="three_image_total_item">%total% предмет</string>
+      <string id="three_image_progress_audio">прогресс</string>
       <string id="three_image_progress_video">прогресс</string>
+      <string id="three_image_tooltip">подсказка</string>
+      <string id="three_image_total_item">%total% предмет</string>
+      <string id="three_image_total_items">%total% предметов</string>
       <string id="three_image_video">видео</string>
       <string id="three_image_video_volume">громкость видео</string>
-      <string id="acc_three_image_count_of_total_items_visited">просмотрено %count% из %total% предметов</string>
-      <string id="acc_three_image_count_of_total_item_visited">просмотрено %count% из %total% предметов</string>
-      <string id="three_image_count_of_total_visited">просмотрено %count% из %total%</string>
-      <string id="accessible_text">Доступный текст</string>
-      <string id="acc_enter_fullscreen">Войти в полноэкранный режим</string>
-      <string id="acc_exit_fullscreen">Выйти из полноэкранного режима</string>
-      <string id="keyboardshortcuts_lower">Сочетания клавиш на клавиатуре</string>
-      <string id="zoom_to_fit">Приближайте, чтобы подогнать по размеру</string>
-      <string id="modern_video_settings_close">закрыть настройки видео</string>
-      <string id="acc_modern_video_fullscreen">полноэкранное видео</string>
-      <string id="modern_video_playback_settings">Настройки воспроизведения видео</string>
-      <string id="modern_video_captions_off">Выкл.</string>
-      <string id="modern_video_captions_on">Вкл.</string>
-      <string id="modern_video_captions_label">Субтитры</string>
-      <string id="acc_modern_video_settings">настройки видео</string>
-      <string id="acc_modern_video_mute">отключить звук видео</string>
-      <string id="modern_video_normal_speed">Нормальная</string>
-      <string id="acc_modern_video_pause">приостановить видео</string>
-      <string id="acc_modern_video_pip">картинка-в-картинке</string>
-      <string id="acc_modern_video_play">воспроизвести видео</string>
-      <string id="modern_video_playback_speed_title">Скорость воспроизведения</string>
-      <string id="acc_modern_video_captions">субтитры к видео</string>
-      <string id="acc_modern_video_playback_speed">скорость воспроизведения</string>
-      <string id="acc_modern_video_volume">громкость видео</string>
-      <string id="acc_active">активна</string>
-      <string id="alt_key">Alt</string>
-      <string id="check_include">Включить в список</string>
-      <string id="clear">Сброс и возврат в меню</string>
-      <string id="close">Закрыть</string>
-      <string id="acc_closed_captions">Скрытые субтитры. Нажмите клавишу пробела, чтобы включить или выключить субтитры.</string>
-      <string id="closed_captions_tip">Переключение субтитров</string>
-      <string id="continue">Продолжить</string>
-      <string id="continueresponsive">Продолжить</string>
-      <string id="playback_speed_title">Скорость воспроизведения</string>
-      <string id="playback_speed_normal">Нормальная</string>
-      <string id="acc_playback_speed">скорость воспроизведения</string>
-      <string id="ctrl_key">Ctrl</string>
-      <string id="enable_keyboardshortcuts">Включить комбинации клавиш</string>
-      <string id="enter_key">Enter</string>
-      <string id="exit">Выйти</string>
-      <string id="filter">Фильтр</string>
-      <string id="finish">ГОТОВО</string>
-      <string id="acc_finish">готово</string>
-      <string id="definition">Определение</string>
-      <string id="acc_definition">определение</string>
-      <string id="glossary">Глоссарий</string>
-      <string id="terms">Термины</string>
-      <string id="progress_hour">час</string>
-      <string id="progress_hours">часов</string>
-      <string id="action">Действие</string>
-      <string id="keyboardshortcuts">Сочетания клавиш на клавиатуре</string>
-      <string id="shortcuthelp">Перечислить сочетания клавиш на клавиатуре</string>
-      <string id="mute_shortcut">Выкл./Вкл. звук</string>
-      <string id="next_shortcut">Следующий слайд</string>
-      <string id="playpause_shortcut">Воспроизведение / Пауза</string>
-      <string id="previous_shortcut">Предыдущий слайд</string>
-      <string id="replay_shortcut">Повторить слайд</string>
-      <string id="shortcut">Сочетание клавиш</string>
-      <string id="submit_shortcut">Добавить слайд</string>
-      <string id="acctext_shortcut">Переключить субтитры</string>
-      <string id="closedcaptions_shortcut">Переключить доступный текст</string>
-      <string id="fullscreen_shortcut">Переключить полноэкранный режим</string>
       <string id="togglezoom">Переключить масштаб по размеру</string>
-      <string id="outline">Меню</string>
-      <string id="disabled_orientation">Поверните устройство</string>
-      <string id="progress_minute">минута</string>
-      <string id="progress_minutes">минут</string>
-      <string id="mute_tip">Выкл. звук</string>
-      <string id="next">ДАЛЕЕ</string>
-      <string id="acc_next">далее</string>
-      <string id="next_slide_tip">Следующий слайд</string>
-      <string id="transcript_chk">Примечания</string>
       <string id="transcript">Примечания</string>
-      <string id="bio">Биография</string>
-      <string id="more_info">Дополнительно</string>
-      <string id="closed_captions">Субтитры</string>
-      <string id="acc_pause">пауза</string>
-      <string id="pause_tip">Пауза</string>
-      <string id="acc_play">воспроизведение</string>
-      <string id="play_tip">Воспроизведение</string>
-      <string id="send_an_email">Отправить письмо</string>
-      <string id="prev">НАЗАД</string>
-      <string id="acc_previous">назад</string>
-      <string id="previous_slide_tip">Предыдущий слайд</string>
-      <string id="question_list">Список вопросов</string>
-      <string id="replay_tip">Повторить</string>
-      <string id="acc_replay">повтор</string>
-      <string id="resources">Ресурсы</string>
-      <string id="acc_resources">ресурсы</string>
-      <string id="restart">Начать заново</string>
-      <string id="resume">Возобновить тест</string>
-      <string id="acc_locked">запер(ла) дверь</string>
-      <string id="acc_search_input">поиск</string>
-      <string id="search_toggle">Поиск</string>
-      <string id="sidebar_toggle">Переключение боковых панелей</string>
-      <string id="acc_slide_progress">прогресс слайдов</string>
-      <string id="desktop_start">Начать курс</string>
-      <string id="mobile_start">Начать курс</string>
-      <string id="acc_visited">посетил(а)</string>
-      <string id="search">Поиск...</string>
-      <string id="search_in">Поиск:</string>
-      <string id="search_results">Результаты поиска</string>
-      <string id="progress_second">секунда</string>
-      <string id="progress_seconds">секунд</string>
-      <string id="settings_tip">Параметры</string>
-      <string id="shift_key">Shift</string>
-      <string id="acc_skipnavigation">Наверх</string>
-      <string id="slide_text_chk">Текст слайда</string>
-      <string id="spacebar_key">Space</string>
-      <string id="streaming_video_local_playback_learn_more">Узнать больше</string>
-      <string id="streaming_video_local_playback_republish">Для просмотра этого видео используйте функцию предварительного просмотра в Storyline 360, загрузите свой опубликованный материал на сервер, опубликуйте его в Review 360 или переключитесь на статичное качество видео.</string>
-      <string id="streaming_video_local_playback_title">Потоковое видео недоступно для локального воспроизведения.</string>
-      <string id="submitall">ОТПРАВИТЬ ВСЕ</string>
-      <string id="acc_submitall">отправить все</string>
-      <string id="submit">ОТПРАВИТЬ</string>
-      <string id="acc_submit">отправить</string>
-      <string id="submit_tip">Добавить</string>
-      <string id="unmute_tip">Вкл. звук</string>
-      <string id="acc_volume">громкость</string>
+      <string id="transcript_auto_scroll">Автопрокрутка</string>
+      <string id="transcript_chk">Примечания</string>
+      <string id="transcript_show_timestamp">Показать временные метки</string>
+      <string id="video_transcript_resume_autoscroll">Возобновить автопрокрутку</string>
+      <string id="video_transcript_select_track">Выбрать трек</string>
+      <string id="video_transcript_title">Записи</string>
+      <string id="zoom_to_fit">Приближайте, чтобы подогнать по размеру</string>
+      <string id="continue">Продолжить</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1579,71 +1571,39 @@
         <slidelink slideid="_player.5tXdqzLglLj" displaytext="Универсальный режим ОПП. Режим обучения." expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5tXdqzLglLj.6RzOS3HBFZv" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6rD1aPlMF1l" displaytext="1" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6Zizf4xjfAV" displaytext="2_1" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6YHo8WehwRr" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6HCtJpsg1VB" displaytext="3_11" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6CEwHAW1nm5" displaytext="3_1" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6ZDfzx6j0TT" displaytext="3_2" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.61hRbGYDLrB" displaytext="3_3" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.5hJUcjf6TCp" displaytext="3_4" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.5Z8DD8VLECr" displaytext="3_5" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.5jN07ZOCKUj" displaytext="4" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6ebPvHltdfM" displaytext="4_1" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.5miwps5AR5U" displaytext="5" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6PRzZPh4N0i" displaytext="5_1" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.61PqKMv0NFN" displaytext="5_2" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6bndEwXxjm1" displaytext="6" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6k7nLCcT9ZS" displaytext="6_1" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.62CG9vxvH83" displaytext="6_2" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6eXaHCWIgN7" displaytext="6_3" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6guOyfsjYJr" displaytext="7" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.5iBnD8ePMvt" displaytext="7_1" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6ROTkPJ3rHY" displaytext="8" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6dpRBrxqaWG" displaytext="8_1" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6DYC53IDIBb" displaytext="9" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6MvAZjP7Nc0" displaytext="9_1" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6jivSX4VDd6" displaytext="10" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6BF4z1FciCm" displaytext="11" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.67YrpdihlZg" displaytext="30" expand="false" type="slide" />
             <slidelink slideid="_player.5tXdqzLglLj.6az8sz2Ianz" displaytext="8_" expand="false" type="slide" />
-            <slidelink slideid="_player.5tXdqzLglLj.6rEQXuQa48w" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.5tXdqzLglLj.6rEQXuQa48w" displaytext="Алгоритм" expand="false" type="slide" />
+            <slidelink slideid="_player.5tXdqzLglLj.6eFE295gHco" displaytext="6" expand="false" type="slide" />
+            <slidelink slideid="_player.5tXdqzLglLj.6bXzlftyMPN" displaytext="Начало" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6dTZty2oV9H" displaytext="Универсальный режим ОПП. Режим экзамена" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6dTZty2oV9H.63XiuTVk67D" displaytext="Начало" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5q2R4LJklVS" displaytext="1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6pmWGtSu3nO" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6mSC1iWIgnO" displaytext="3" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5wnE3K10bP7" displaytext="3_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6IyYqfPKCf1" displaytext="3_1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6EsgP5TVcZf" displaytext="3_2" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.62ubiBbXJF9" displaytext="3_2_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5m0thy9N9Io" displaytext="3_3" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6PD1eNh87Ui" displaytext="3_4" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5pf4PtqqO7a" displaytext="3_4_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5lQZVH1kRdI" displaytext="4" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6gVy62O5hE6" displaytext="5" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.69Xo17dvgOa" displaytext="5_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6Eq4jwZ6voE" displaytext="5_2" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5nwCAoLrLgX" displaytext="6" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6R3XsxrNlMq" displaytext="7" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6MoAZ2Ss278" displaytext="7_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6XS2GHYvuTt" displaytext="8" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6Y7rjjtibF4" displaytext="8_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6UmM241bPe9" displaytext="9" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.5pfJL0n92UZ" displaytext="9_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6pndBHefrMB" displaytext="10" expand="false" type="slide" />
-            <slidelink slideid="_player.6dTZty2oV9H.6cRtqU3gZLI" displaytext="11" expand="false" type="slide" />
+            <slidelink slideid="_player.6dTZty2oV9H.5UsBDZarAQZ" displaytext="Экзамен_алгоритм" expand="false" type="slide" />
+            <slidelink slideid="_player.6dTZty2oV9H.6r96rrdOhXc" displaytext="Завершение" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5rZIHQeALAT" displaytext="ОПП при отсутствии сознания, остановке дыхания, кровообращения" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5rZIHQeALAT.5fmy5yajtU2" displaytext="Начало" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.6kYMyIl6rxV" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.5rZIHQeALAT.6QRNMOKHqy9" displaytext="1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.6Dh96wESzYF" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.5adwKYWD31r" displaytext="Найти опасности" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.5hePAlk3fGI" displaytext="2_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.6W9b9udgmCu" displaytext="3_3" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.6qBcRbePmWh" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.6b7UWmbrmi4" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.6aucf3GqVzj" displaytext="2" expand="false" type="slide" />
@@ -1653,6 +1613,11 @@
             <slidelink slideid="_player.5rZIHQeALAT.6Wfrmm8fxRM" displaytext="2_1" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.66lzB1Jyclu" displaytext="5_2" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.67weArzW5C1" displaytext="5_2" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.69VFxEVjC4r" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.5ZVJjBrujtz" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.6AFOL0p3Dp8" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.5pqnS89PGTV" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZIHQeALAT.5ew65rmARpd" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.5rZIHQeALAT.5hteVvN0FQM" displaytext="30" expand="false" type="slide" />
           </links>
         </slidelink>
@@ -1660,7 +1625,7 @@
           <links>
             <slidelink slideid="_player.6UfN6lPcRgw.5sjwIeq76Ta" displaytext="Начало" expand="false" type="slide" />
             <slidelink slideid="_player.6UfN6lPcRgw.5lL0grtAwfm" displaytext="6" expand="false" type="slide" />
-            <slidelink slideid="_player.6UfN6lPcRgw.5pkRb7zoJIp" displaytext="1" expand="false" type="slide" />
+            <slidelink slideid="_player.6UfN6lPcRgw.6gHfKDTC35h" displaytext="Найти опасности" expand="false" type="slide" />
             <slidelink slideid="_player.6UfN6lPcRgw.66lrOCXeEr3" displaytext="6" expand="false" type="slide" />
             <slidelink slideid="_player.6UfN6lPcRgw.5zWkrCPYmnh" displaytext="3" expand="false" type="slide" />
             <slidelink slideid="_player.6UfN6lPcRgw.5WiaPDJetve" displaytext="3" expand="false" type="slide" />
@@ -1691,15 +1656,7 @@
           <links>
             <slidelink slideid="_player.6nMqeP8xrkO.61d3Bx8YcvS" displaytext="Начало" expand="false" type="slide" />
             <slidelink slideid="_player.6nMqeP8xrkO.5nde9t7g0m1" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.6EgahYRVLXh" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.6esPnjuNY2a" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.6nB6UbOKl0N" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.6413enjPC6p" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.6RH2Db8B2MM" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.5WE1cOJsih1" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.65hJEXgGsWm" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6nMqeP8xrkO.6dxYrp02saY" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.6nMqeP8xrkO.6dh63az7ukd" displaytext="1_1" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6JYd1GB1l53" displaytext="ОПП при наружных кровотечениях и травмах" expand="true" type="slide">
@@ -1715,8 +1672,6 @@
             <slidelink slideid="_player.6JYd1GB1l53.5y98MqZ1RMC" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6JYd1GB1l53.6KuWDRJnomF" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6JYd1GB1l53.5UyqTRd87Ph" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6JYd1GB1l53.5je2Zy3cuiS" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6JYd1GB1l53.6Oqzlf6Z0Jj" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6JYd1GB1l53.6qULxEjJhE5" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6JYd1GB1l53.6K27bOqNdDT" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6JYd1GB1l53.6EETErBacQ9" displaytext="1_1" expand="false" type="slide" />
@@ -1738,16 +1693,14 @@
         <slidelink slideid="_player.67bjBq5zay9" displaytext="ОПП при наружных кровотечениях и травмах_Экзамен " expand="true" type="slide">
           <links>
             <slidelink slideid="_player.67bjBq5zay9.6DdFPb53M65" displaytext="Начало" expand="false" type="slide" />
-            <slidelink slideid="_player.67bjBq5zay9.5vjk9zD8Sj7" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.67bjBq5zay9.6YPwMnTSZCJ" displaytext="Pick Many" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.5WV7DuhcjnQ" displaytext="6" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.6Fm7fYnmJSZ" displaytext="6" expand="false" type="slide" />
-            <slidelink slideid="_player.67bjBq5zay9.5upBhKknxRA" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.5rJkLL8lYIf" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.63xafHZY1xl" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.6OU0xhpWO9w" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.6Rfe3yUrTNU" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.6lVFHb1uUga" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.67bjBq5zay9.6FBtcCzoETg" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.6VAzseydMcx" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.5vlhiXBKrdy" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.67bjBq5zay9.5mmS4zAUeTL" displaytext="2" expand="false" type="slide" />
@@ -1758,19 +1711,11 @@
             <slidelink slideid="_player.67bjBq5zay9.6F3M0PasL6S" displaytext="1_1" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6H0CYBiY4LJ" displaytext="ОПП_части тела" expand="true" type="slide">
+        <slidelink slideid="_player.6H0CYBiY4LJ" displaytext="Травмы головы и шеи" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6H0CYBiY4LJ.5qvXm4iIWn4" displaytext="Начало" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.6N54JMNKJtT" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.6bUrfvVAxry" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.67on27iqehp" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5zTf9TpFkEK" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6lCxNTBS38h" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.67y0nNRAhMP" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5dEhCKPxYF8" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5ziTcIYb0my" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5VdK6ULeoKw" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5XNi8ExVnDk" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.5ttnGQVLDkG" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.63zPcc9DggU" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.6jazJXGsLoB" displaytext="1_1" expand="false" type="slide" />
@@ -1782,84 +1727,92 @@
             <slidelink slideid="_player.6H0CYBiY4LJ.6dnNkH4gxTh" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.6B7hB6pkHwH" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.5aj3asSDQM6" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6hZTjrzLNte" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.610bDdNUANi" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5l16YZUqNP3" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5rcLtYxINzI" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6CyVNKAA4wR" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5dMCyuwrMLP" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6Dcdcl7NZ7Y" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5YrMJSKprxJ" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5hYecA6RRzh" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5qTqDXiUdRy" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5tcpCqjN9iD" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5jYGQLCRbFX" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6Utwz8XuGmL" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5dbpYEm8F8p" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.63IFFMnbECP" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6nAjioSME2r" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5knVaETDHl1" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6FzMym4lrnU" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6PtnCOdEGlg" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6d8CEV1AfvV" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5b5tE54pnG7" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6BW9gVWXYfV" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.68tIOgqCnKZ" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5u5mKbqrlGa" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6rh5R34TxcU" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5dxc8ztuw90" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.5vFjRrhpXfj" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.6H0CYBiY4LJ.6jnfwP2DUCj" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6H0CYBiY4LJ.5fiUrrifMqL" displaytext="30" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.69zokYkN4az" displaytext="ОПП_части тела_Экзамен" expand="true" type="slide">
+        <slidelink slideid="_player.6C8TULk1scB" displaytext="Травмы груди" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6C8TULk1scB.68s4xGIirS1" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.6C8TULk1scB.6hjCjFA4jBQ" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6C8TULk1scB.5X3f1Wd85Mq" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6C8TULk1scB.6jrOCfPe0DP" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6C8TULk1scB.664t9ajvPzU" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6C8TULk1scB.6WQuv41bL49" displaytext="30" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5maHlqG4tBG" displaytext="Травмы живота и таза" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5maHlqG4tBG.6lmhKLaxMyJ" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.6bIVL29xYU3" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.6nkkOnpuoQ9" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.6kFWinbiWAa" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.6IPLH5BkCvC" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.5n4pMMZoQpm" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.6OT73iihPOZ" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.68NfRRmb6Cl" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5maHlqG4tBG.6oaMYux3Apo" displaytext="30" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5xVeVqOi4C1" displaytext="Травмы конечностей и позвоночника" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5xVeVqOi4C1.66kc5hA4IHS" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.5bIqftmWv8l" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6MogIDQnOrU" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.66NeLYLPg2Z" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.605xtAojQF2" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.5mRczRJrMGM" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6VOcwBzxZz8" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.5hzACOCeEWz" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6Z7PtYFQo1u" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.5gPYzEE81wc" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.65sm12o5cwe" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6q2xJ1ChDzF" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.5zH2Ji370nc" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.5fkjvj66D6S" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6hVufjyNkiG" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6J47MSKWldT" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6B6vAgrnhwE" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.5xVeVqOi4C1.6WUUU1n4KSf" displaytext="30" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69zokYkN4az" displaytext="Травмы головы и шеи_Экзамен" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.69zokYkN4az.5xQ12QGsg44" displaytext="Начало" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.5hhIqXwGmag" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.6kaa1Da6nrb" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6GZRBXNmVM2" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6cX6jsYVdgS" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5bQk9knica7" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6ihDt5zYR8u" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5nZWORF4LrW" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6XY8Jpn0bg4" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6r6geEKRHQe" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6ERPVPm62B1" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6QRteq2HANB" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6oy06nndlw5" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6NOQecz7qPN" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6FJ53phpmDY" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.6jkhjrWpYAp" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.5jLaB3W5BvY" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5W1e66jzMmz" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6iwpzo61Gy9" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6bZ7Ant4YNq" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6DrZdfhBNcY" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6j7fwB9pUgp" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5XJcsCFdf4d" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5YA3LJFNyPf" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5tfYotwDxdn" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6OkNjeDM0gp" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5YWPw3IdiGu" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6dEeeAO8K70" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5jGricJcxbC" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6RqoDjpI5Ho" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5tqeSK9ULyP" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.699UB9T7tqX" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5t4PAD6jfDx" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5coq5nvGghA" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5VX5oaxHj24" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6IS4r9stK07" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.60aefCUjPrZ" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6Iha7LONKti" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6oeDDnk87YJ" displaytext="1_1" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6p7SBVRNWnm" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.69zokYkN4az.5zNjAn7u8zF" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.6CoaQAAA3w0" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.5WF1dVHXsU5" displaytext="2" expand="false" type="slide" />
-            <slidelink slideid="_player.69zokYkN4az.6mw8jHeqj64" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.6jGoO5BRFfx" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.69zokYkN4az.6NikLLZPVry" displaytext="30" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5b40d13Xkgk" displaytext="Травмы груди_Экзамен" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5b40d13Xkgk.5fc4ck04SFk" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.5b40d13Xkgk.6fKF694w7A4" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.5b40d13Xkgk.6CHCsAhKjtF" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.5b40d13Xkgk.6OCqot5gq0D" displaytext="30" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6oLaOwPCUVG" displaytext="Травмы живота и таза_Экзамен" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6oLaOwPCUVG.6behAnwrsVw" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.6oLaOwPCUVG.5vy2Sz7YKQa" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6oLaOwPCUVG.5WbWDQGVLs6" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6oLaOwPCUVG.5l6Ubz4tQkc" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6oLaOwPCUVG.6riuQdCb24O" displaytext="30" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6p0NN7IRC11" displaytext="Травмы конечностей и позвоночника_Экзамен" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6p0NN7IRC11.6Do8r6ea3H7" displaytext="Начало" expand="false" type="slide" />
+            <slidelink slideid="_player.6p0NN7IRC11.5jE68CSUBaU" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6p0NN7IRC11.6ipnShSupkp" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6p0NN7IRC11.6ck1PyFdLY1" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6p0NN7IRC11.6Upnz8ZEH5m" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6p0NN7IRC11.6lweAETPZcF" displaytext="30" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6KMnCxFaeBn" displaytext="ОПП_Прочие состояния" expand="true" type="slide">
@@ -1884,6 +1837,13 @@
             <slidelink slideid="_player.6KMnCxFaeBn.6fLlGoX0gt2" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6KMnCxFaeBn.6NrPYy5Wej9" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6KMnCxFaeBn.62o7uQsAs7M" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.6ddpJQO6uwR" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.6URD2tZB9fL" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.6RylBbXfAql" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.5pH1FPsI8ak" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.6aTNJDSTXPI" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.6bVmwd14k8f" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6KMnCxFaeBn.6OTgVUyka2z" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6KMnCxFaeBn.6NdbAtS4Rw8" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6KMnCxFaeBn.6bt0ST1NI4p" displaytext="1_1" expand="false" type="slide" />
             <slidelink slideid="_player.6KMnCxFaeBn.6lraEgXgXrn" displaytext="1_1" expand="false" type="slide" />
@@ -1898,20 +1858,30 @@
             <slidelink slideid="_player.6rfsRZVguR0.6LSlOp8SitK" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5tmRpCf7ZLn" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.6kmUpFjCrnq" displaytext="1_1" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.5wtQzXiyAUT" displaytext="Pick Many" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5kj5LXAMtyb" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5kEbB5tir7Y" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5xEQa21uBkN" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.5nZgTPrnoa1" displaytext="Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6MMH6kdiJ3f" displaytext="3" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6gmsNcS8X74" displaytext="3" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.6DnZHRGpial" displaytext="Pick Many" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5gsgFTGIFDF" displaytext="6" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.6eRsuBnMogQ" displaytext="6" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.6SRZp6PNe68" displaytext="6" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5h89BUF9EmO" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6hLcaBxxZm3" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5WPYYE3dyeu" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5sYnP4iSzS1" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.6drpnvaDsfd" displaytext="Pick Many" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5dworkjCSvL" displaytext="Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6nNJoaX8gdg" displaytext="3" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5dN7pd1lhOR" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.5tbGWkrFSW7" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6QDCV72YVEQ" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6T5XVQRdiIJ" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6bOUVmsO8w9" displaytext="2" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfsRZVguR0.6ZOB2P3MwBp" displaytext="2" expand="false" type="slide" />
             <slidelink slideid="_player.6rfsRZVguR0.64Sv67d0Lkt" displaytext="30" expand="false" type="slide" />
           </links>
         </slidelink>
